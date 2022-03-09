@@ -1,0 +1,13 @@
+{
+  "presets": ["razzle/babel"],
+  "plugins": [
+    [
+      "babel-plugin-inline-react-svg",
+      {
+        "svgo": {
+          "plugins": [{ "removeAttrs": { "attrs": "(data-name)|(width)|(height)" } }, { "cleanupIDs": true }]
+        }
+      }
+    ]
+  ]
+}
