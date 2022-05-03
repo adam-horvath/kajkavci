@@ -14,20 +14,6 @@ class HomePage extends Component {
       <div>
         <Box mb={8}>
           <Box mb={4} className={classes.SectionTitleContainer}>
-            <Box className="SectionTitle">{t('home.nastup')}</Box>
-            <div className="TitleBorder" />
-          </Box>
-          <Box className={classes.News}>{t('home.news.nastup')}</Box>
-        </Box>
-        <Box mb={8}>
-          <Box mb={4} className={classes.SectionTitleContainer}>
-            <Box className="SectionTitle">{t('home.new_web_page')}</Box>
-            <div className="TitleBorder" />
-          </Box>
-          <Box className={classes.News}>{t('home.news.new_web_page_text')}</Box>
-        </Box>
-        <Box mb={8}>
-          <Box mb={4} className={classes.SectionTitleContainer}>
             <Box className="SectionTitle">{t('home.prize')}</Box>
             <div className="TitleBorder" />
           </Box>

@@ -3,6 +3,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import { withTranslation } from 'react-i18next';
 import Box from '@material-ui/core/Box';
 import { withRouter } from 'react-router-dom';
+import { isAfter, isSameDay } from 'date-fns';
 
 import { concertsPageStyles } from './styles';
 import { Concerts } from './concerts';
@@ -18,6 +19,10 @@ class ConcertsPage extends Component {
     return language === 'hu' ? hungarianMonthAndDate : date + ' ' + getCroatianMonthName(month);
   };
 
+  isFuture = (date) => {
+    return isAfter(date, new Date()) || isSameDay(date, new Date());
+  };
+
   render() {
     const { classes } = this.props;
     return (
@@ -29,7 +34,12 @@ class ConcertsPage extends Component {
             </Box>
             <Box>
               {Concerts[year].map((concert, i) => (
-                <Box className={classes.Concert} key={i}>
+                <Box
+                  className={`${classes.Concert} ${
+                    concert.isoDate && this.isFuture(new Date(concert.isoDate)) ? classes.Future : ''
+                  }`}
+                  key={i}
+                >
                   {this.getDate(concert.date)} - {concert.location}
                 </Box>
               ))}

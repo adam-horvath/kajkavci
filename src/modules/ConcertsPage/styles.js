@@ -11,9 +11,12 @@ export const concertsPageStyles = (theme) => ({
     color: theme.palette.blue,
     [theme.breakpoints.down('sm')]: {
       fontSize: 20,
-    }
+    },
   },
   Concert: {
     fontSize: 16,
+  },
+  Future: {
+    color: theme.palette.blue,
   },
 });

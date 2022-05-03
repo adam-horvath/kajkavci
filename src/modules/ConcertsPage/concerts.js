@@ -1,13 +1,17 @@
 export const Concerts = {
+  '2022.': [
+    { date: 'május 14.', location: 'Fertőszéplak', isoDate: '2022-05-14' },
+    { date: 'május 14.', location: 'Fertőhomok', isoDate: '2022-05-14' },
+    { date: 'május 7.', location: 'Baja', isoDate: '2022-05-07' },
+    { date: 'május 1.', location: 'Fertőhomok', isoDate: '2022-05-01' },
+  ],
   '2021.': [
-    { date: 'szeptember 19.', location: 'Szentendre'}, 
-    { date: 'szeptember 4.', location: 'Fertőhomok'},
-    { date: 'július 3.', location: 'Fertőd'},
-    { date: 'június 5.', location: 'Fertőhomok'},
+    { date: 'szeptember 19.', location: 'Szentendre' },
+    { date: 'szeptember 4.', location: 'Fertőhomok' },
+    { date: 'július 3.', location: 'Fertőd' },
+    { date: 'június 5.', location: 'Fertőhomok' },
   ],
-  '2020.': [
-    { date: 'december 25.', location: 'Fertőhomok' },
-  ],
+  '2020.': [{ date: 'december 25.', location: 'Fertőhomok' }],
   '2019.': [
     { date: 'december 22.', location: 'Fertőhomok' },
     { date: 'december 15.', location: 'Sarród' },
