@@ -1,0 +1,11 @@
+{
+  "news": [
+    {
+      "titleHu": "Elismerés",
+      "titleHr": "Priznanje",
+      "descriptionHu": "A Magyarországi Horvátok Szövetsége elismerő díjat adományozott a tamburaegyüttesünknek a magyarországi horvát kulturális élet területén végzett munkásságunkért. A díjat 2019. november 16-án, a Baján megrendezett országos horvát napon vehettük át.",
+      "descriptionHr": "Savez Hrvata u Mađarskoj je dodjeljivao nagradu našom sastavu za istaknutu djelatnost na području kulturnog života Hrvata u Mađarskoj. Nagradu smo dobili u Baji na Državnom Hrvatskom Danu, 16-og studeni 2019 g.",
+      "imgUrls": ["drzavna_nagrada.jpg"]
+    }
+  ]
+}

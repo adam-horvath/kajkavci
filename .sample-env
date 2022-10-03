@@ -1,3 +1,0 @@
-#RAZZLE_ENV=development
-#RAZZLE_ENV=staging
-RAZZLE_ENV=production
