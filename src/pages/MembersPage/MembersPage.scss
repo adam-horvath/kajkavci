@@ -1,0 +1,49 @@
+@use 'styles/mixins' as *;
+
+.MembersDesktopPage {
+  width: 100%;
+  margin-bottom: rem-calc(64);
+}
+
+.FirstRow {
+  margin-bottom: rem-calc(16);
+}
+
+@include media-breakpoint-up('lg') {
+  .FirstRow {
+    display: flex;
+    justify-content: space-between;
+  }
+  .SecondRow {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@include media-breakpoint-down('md') {
+  .FirstRow {
+    display: block;
+  }
+  .SecondRow {
+    display: block;
+  }
+}
+
+.Image {
+  width: rem-calc(250);
+  height: rem-calc(333);
+  background-position: center;
+  background-size: cover;
+  background-repeat: noRepeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Subscript {
+  text-align: center;
+  font-size: rem-calc(18);
+  line-height: rem-calc(21);
+  padding-top: rem-calc(8);
+  padding-bottom: rem-calc(8);
+  margin-bottom: rem-calc(32);
+}

@@ -1,0 +1,15 @@
+@use 'styles/colors' as *;
+@use 'styles/mixins' as *;
+
+.btn-close {
+  position: absolute;
+  top: rem-calc(16);
+  right: rem-calc(16);
+  color: $grey70;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.MediaDialog {
+  z-index: 1500 !important;
+}

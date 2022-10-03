@@ -1,0 +1,34 @@
+@use 'styles/mixins' as *;
+
+.HomePage {
+  margin-bottom: rem-calc(64);
+}
+
+.SectionTitleContainer {
+  font-size: rem-calc(28);
+  font-weight: bold;
+  & .SectionTitle {
+    padding-bottom: rem-calc(1);
+  }
+  @include media-breakpoint-down('sm') {
+    font-size: rem-calc(20);
+  }
+}
+
+.ImageContainer {
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  overflow-y: visible;
+}
+
+.ImageWrapper {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: rem-calc(360);
+  padding-top: rem-calc(280);
+  max-width: 100%;
+  &.Portrait {
+    padding-top: rem-calc(480);
+  }
+}

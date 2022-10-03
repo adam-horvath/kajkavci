@@ -1,0 +1,14 @@
+@use 'styles/mixins' as *;
+
+.ArticleImageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ArticleImage {
+  width: 100%;
+  height: auto;
+  border-bottom-left-radius: rem-calc(6);
+  border-bottom-right-radius: rem-calc(6);
+}

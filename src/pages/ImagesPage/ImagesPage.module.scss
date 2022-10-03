@@ -1,0 +1,38 @@
+@use 'styles/mixins' as *;
+
+.ImagesContainer {
+  margin-bottom: rem-calc(32);
+}
+
+.ImageContainer {
+  margin-bottom: rem-calc(48);
+  @include media-breakpoint-down('xs') {
+    margin-bottom: rem-calc(24);
+  }
+}
+
+.Image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  max-width: 300;
+  box-shadow: 0 rem-calc(16) rem-calc(30) #00000029;
+  margin-bottom: rem-calc(2);
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  @include media-breakpoint-up('sm') {
+    height: rem-calc(150);
+  }
+  @include media-breakpoint-down('xs') {
+    height: rem-calc(200);
+    margin-bottom: rem-calc(24);
+  }
+}
+
+.Description {
+  text-align: center;
+  padding-left: rem-calc(8);
+  padding-right: rem-calc(8);
+}

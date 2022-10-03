@@ -1,0 +1,37 @@
+@use 'styles/mixins' as *;
+
+.VideosContainer {
+  margin-bottom: rem-calc(32);
+}
+
+.VideoContainer {
+  margin-bottom: rem-calc(48);
+  @include media-breakpoint-down('xs') {
+    margin-bottom: rem-calc(24);
+  }
+}
+
+.Video {
+  background-position: center;
+  background-size: cover;
+  background-repeat: noRepeat;
+  width: 90%;
+  max-width: 300;
+  box-shadow: 0 rem-calc(16) rem-calc(30) #00000029;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: rem-calc(16);
+  cursor: pointer;
+  @include media-breakpoint-up('sm') {
+    height: rem-calc(150);
+  }
+  @include media-breakpoint-down('xs') {
+    height: rem-calc(200);
+  }
+}
+
+.Description {
+  text-align: center;
+  padding-left: rem-calc(8);
+  padding-right: rem-calc(8);
+}

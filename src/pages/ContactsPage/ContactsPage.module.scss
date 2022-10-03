@@ -1,0 +1,35 @@
+@use 'styles/mixins' as *;
+
+.GridContainer {
+  width: 100%;
+}
+
+.Map {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  width: 100%;
+  height: rem-calc(542);
+  @include media-breakpoint-down('sm') {
+    margin-bottom: rem-calc(32);
+    height: rem-calc(271);
+  }
+}
+
+.InfoContainer {
+  font-size: rem-calc(18);
+  @include media-breakpoint-up('md') {
+    padding-left: rem-calc(32);
+  }
+  @include media-breakpoint-down('sm') {
+    font-size: rem-calc(16);
+  }
+}
+
+.Name {
+  font-size: rem-calc(28);
+  @include media-breakpoint-down('sm') {
+    font-size: rem-calc(24);
+  }
+}

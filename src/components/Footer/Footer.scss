@@ -1,0 +1,66 @@
+@use 'styles/colors' as *;
+@use 'styles/constants' as *;
+@use 'styles/mixins' as *;
+
+.Footer {
+  background: $darkBlue;
+  width: 100%;
+  color: white;
+  padding: rem-calc(24);
+  position: relative;
+  @include media-breakpoint-down('sm') {
+    padding-left: rem-calc(24);
+    padding-right: 0;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ScrollToTop {
+  position: absolute;
+  top: $scrollToTopSize / -2;
+  right: $scrollToTopSize / 2;
+  width: $scrollToTopSize;
+  height: $scrollToTopSize;
+  border-radius: $scrollToTopSize / 2;
+  color: white;
+  background-color: $yellow;
+  &:hover {
+    background-color: $yellowHover;
+  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  & svg {
+    width: ($scrollToTopSize / 3) * 2;
+    height: ($scrollToTopSize / 3) * 2;
+  }
+  @include media-breakpoint-down('sm') {
+    right: calc(50% - #{$scrollToTopSize / 2}px);
+  }
+}
+
+.FooterText {
+  font-size: 18;
+  line-height: 1.5;
+  padding-top: rem-calc(16);
+  padding-bottom: rem-calc(16);
+  @include media-breakpoint-down('sm') {
+    margin-left: auto;
+    margin-right: rem-calc(32);
+  }
+}
+
+.Logo {
+  width: rem-calc(64) !important;
+  height: rem-calc(64) !important;
+  @include media-breakpoint-down('sm') {
+    position: absolute;
+    left: rem-calc(16);
+  }
+  @include media-breakpoint-down('md') {
+    margin-right: rem-calc(16);
+  }
+}

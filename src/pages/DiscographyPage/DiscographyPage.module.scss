@@ -1,0 +1,62 @@
+@use 'styles/colors' as *;
+@use 'styles/mixins' as *;
+
+.Disks {
+  width: 100%;
+}
+
+.DiskContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: rem-calc(64);
+  @include media-breakpoint-down('sm') {
+    display: block;
+  }
+}
+
+.Cover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: rem-calc(470);
+  height: rem-calc(470);
+  @include media-breakpoint-down('sm') {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include media-breakpoint-down('xs') {
+    width: rem-calc(280);
+    height: rem-calc(280);
+    background-size: contain;
+  }
+}
+
+.TracksContainer {
+  @include media-breakpoint-up('md') {
+    padding-left: rem-calc(32);
+  }
+  @include media-breakpoint-down('sm') {
+    text-align: center;
+    display: grid;
+  }
+}
+
+.Title {
+  font-weight: bold;
+  font-size: rem-calc(20);
+  padding-bottom: rem-calc(2);
+  border-bottom: rem-calc(2) solid $blue;
+  line-height: rem-calc(24);
+  margin-bottom: rem-calc(16);
+  @include media-breakpoint-down('sm') {
+    margin-top: rem-calc(32);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.Link {
+  text-decoration: none;
+  color: $blue;
+}

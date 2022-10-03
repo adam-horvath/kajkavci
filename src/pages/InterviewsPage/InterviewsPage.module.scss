@@ -1,0 +1,19 @@
+@use 'styles/colors' as *;
+@use 'styles/mixins' as *;
+
+.InterviewContainer {
+  margin-bottom: rem-calc(32) !important;
+}
+
+.Interview {
+  text-align: center;
+  margin-bottom: rem-calc(32);
+}
+
+.Link {
+  color: $blue;
+  &:hover {
+    color: $blueHover;
+  }
+  text-decoration: none;
+}

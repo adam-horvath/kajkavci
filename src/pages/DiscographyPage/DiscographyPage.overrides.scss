@@ -1,0 +1,14 @@
+@use 'styles/mixins' as *;
+
+.modal-body {
+  padding: 0 !important;
+
+  .Line {
+    text-align: center;
+    line-height: rem-calc(20);
+  }
+
+  .Text {
+    margin-bottom: rem-calc(48);
+  }
+}

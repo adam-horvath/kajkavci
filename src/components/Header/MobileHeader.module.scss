@@ -1,0 +1,66 @@
+@use 'styles/colors' as *;
+@use 'styles/constants' as *;
+@use 'styles/mixins' as *;
+
+.MobileHeader {
+  display: flex;
+  @include media-breakpoint-up('md') {
+    display: none;
+  }
+  height: $headerHeight;
+  background-color: $darkBlue;
+  align-items: center;
+  padding: rem-calc(16);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.MobileLogoContainer {
+  border: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.MobileLogo {
+  cursor: pointer;
+  @include media-breakpoint-down('sm') {
+    display: none;
+  }
+}
+
+.MobileActionContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  color: white;
+}
+
+.MobileMenuButton {
+  color: inherit;
+  width: rem-calc(25);
+  height: rem-calc(25);
+  cursor: pointer;
+}
+
+.MobileBandButton {
+  color: white;
+  padding: rem-calc(16) !important;
+  &:hover {
+    color: white;
+    background-color: $darkBlueHover;
+  }
+}
+
+.MobileDivider {
+  background-color: white;
+  margin: rem-calc(2) 0;
+  height: rem-calc(2) !important;
+  opacity: 1;
+}
+
+.Collapse {
+  padding: 0;
+}

@@ -1,0 +1,29 @@
+@use 'styles/colors' as *;
+@use 'styles/constants' as *;
+@use 'styles/mixins' as *;
+
+.ModalHeader {
+  flex-direction: column;
+  position: relative;
+  padding: 0;
+  border: 0 !important;
+}
+
+.DialogTitle {
+  font-weight: bold;
+  font-size: rem-calc(32);
+  padding-bottom: rem-calc(8);
+  border-bottom: rem-calc(4) solid $blue;
+  @include media-breakpoint-down('md') {
+    font-size: rem-calc(24);
+  }
+}
+
+.Subtitle {
+  text-align: center;
+  margin-bottom: rem-calc(32);
+}
+
+.Title {
+  margin: rem-calc(32) auto rem-calc(16);
+}

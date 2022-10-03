@@ -1,0 +1,46 @@
+@use 'styles/colors' as *;
+@use 'styles/mixins' as *;
+
+.PrizesContainer {
+  margin: 0 auto rem-calc(64) !important;
+  text-align: center;
+}
+
+.Year {
+  font-size: rem-calc(28);
+  color: $blue;
+  margin-bottom: rem-calc(24);
+  &:not(:first-child) {
+    margin-top: rem-calc(40);
+  }
+  @include media-breakpoint-down('sm') {
+    font-size: rem-calc(20);
+  }
+}
+
+.Prize {
+  font-size: rem-calc(16);
+}
+
+.PrizeImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include media-breakpoint-down('sm') {
+    display: block;
+  }
+}
+
+.PrizeImage {
+  &:not(:last-child) {
+    margin-right: rem-calc(32);
+    @include media-breakpoint-down('sm') {
+      margin-right: 0;
+      margin-bottom: rem-calc(16);
+    }
+  }
+}
+
+.PrizeDescription {
+  margin: rem-calc(24) 0;
+}

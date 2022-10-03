@@ -1,0 +1,32 @@
+@use 'styles/mixins' as *;
+
+.HamburgerContainer {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.Bar {
+  width: rem-calc(35);
+  height: rem-calc(4);
+  background-color: white;
+  margin-top: rem-calc(4);
+  margin-bottom: rem-calc(4);
+  margin-left: 0;
+  margin-right: 0;
+  transition-duration: 0.5s;
+}
+
+.Bar1 {
+  -webkit-transform: rotate(-45deg) translate(rem-calc(-8), rem-calc(8));
+  transform: rotate(-45deg) translate(rem-calc(148), rem-calc(165));
+}
+
+.Bar2 {
+  opacity: 0;
+}
+
+.Bar3 {
+  -webkit-transform: rotate(45deg) translate(rem-calc(-11), rem-calc(-11));
+  transform: rotate(45deg) translate(rem-calc(148), rem-calc(-165));
+}

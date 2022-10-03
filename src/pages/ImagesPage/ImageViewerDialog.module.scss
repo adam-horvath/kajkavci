@@ -1,0 +1,34 @@
+@use 'styles/constants' as *;
+@use 'styles/mixins' as *;
+
+.ModalImage {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-position-y: top;
+  height: 70vh;
+  @include media-breakpoint-only('lg') {
+    height: rem-calc(600);
+  }
+  @include media-breakpoint-down('md') {
+    display: none;
+  }
+}
+
+.MobileModalImages {
+  @include media-breakpoint-up('lg') {
+    display: none;
+  }
+}
+
+.MobileImage {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 100vh;
+  @include media-breakpoint-down('md') {
+    height: calc(100vh - #{$imageModalHeaderHeight});
+  }
+}

@@ -1,0 +1,41 @@
+@use 'styles/mixins' as *;
+
+$headerHeight: rem-calc(66);
+
+$headerContentSize: rem-calc(44);
+$scrollToTopSize: rem-calc(50);
+
+$imageModalHeaderHeight: rem-calc(48);
+
+// page: {
+//   mainPadding: '8%',
+//   topSpace: defaultTheme.spacing(15),
+//   sideSpace: defaultTheme.spacing(5),
+// },
+// sideBar: {
+//   width: 300,
+//   mobileBreakpoint: 'md',
+// },
+// filePicker: {
+//   width: 40,
+//   height: 40,
+// },
+// header: {
+//   height: 66,
+//   contentSize: 44,
+// },
+// mobileHeader: {
+//   height: 60,
+// },
+// scrollToTop: {
+//   size: 50,
+// },
+// homeSearch: {
+//   height: 60,
+// },
+// homePageAboutUsImage: {
+//   size: 120,
+// },
+// pagination: {
+//   size: 44,
+// },
