@@ -24,6 +24,10 @@
   .dropdown-menu {
     padding: 0 !important;
   }
+  @include media-breakpoint-up('xl') {
+    justify-content: center;
+    margin-right: rem-calc(170);
+  }
 }
 
 .MenuItem {
