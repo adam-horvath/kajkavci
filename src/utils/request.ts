@@ -25,7 +25,7 @@ function setRequestConfig(method: Methods, url: string, config: any) {
 }
 
 async function request<T = void>({ resource, baseURL, method = Methods.GET, ...config }: RequestConfig) {
-  const url = `${baseURL ? baseURL : process.env.REACT_APP_PUBLIC_URL}${resource}`;
+  const url = `${baseURL || process.env.REACT_APP_PUBLIC_URL}${resource}`;
   const requestConfig = setRequestConfig(method, url, config);
   const { data: response } = await axiosInstance.request<T>(requestConfig);
   return response;
