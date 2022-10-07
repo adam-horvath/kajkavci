@@ -20,6 +20,9 @@
   justify-content: flex-start;
   height: auto;
   overflow-y: visible;
+  &.Center {
+    justify-content: center;
+  }
 }
 
 .ImageWrapper {
@@ -30,5 +33,9 @@
   max-width: 100%;
   &.Portrait {
     padding-top: rem-calc(480);
+  }
+  &.Wide {
+    width: rem-calc(1000);
+    padding-top: rem-calc(700);
   }
 }

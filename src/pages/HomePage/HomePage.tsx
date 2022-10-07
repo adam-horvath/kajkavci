@@ -22,18 +22,20 @@ export const HomePage: FC = () => {
     <div className={'HomePage'}>
       {news.map((n) => (
         <>
-          <div className={'SectionTitleContainer mb-5'}>
-            <div className={'SectionTitle'}>{translate(n.titleHu, n.titleHr)}</div>
-            <div className={'TitleBorder'} />
-          </div>
-          <div className={'News mb-5'}>{translate(n.descriptionHu, n.descriptionHr)}</div>
-          <div className={'ImageContainer mb-5'}>
+          {n.titleHu ? (
+            <div className={'SectionTitleContainer mb-5'}>
+              <div className={'SectionTitle'}>{translate(n.titleHu, n.titleHr)}</div>
+              <div className={'TitleBorder'} />
+            </div>
+          ) : null}
+          {n.descriptionHu ? <div className={'News mb-5'}>{translate(n.descriptionHu, n.descriptionHr)}</div> : null}
+          <div className={classNames('ImageContainer mb-5', { Center: n.wide === 'true' })}>
             {n.imgUrls?.length
               ? n.imgUrls.map((url) => (
                   <div
                     key={url}
-                    className={classNames('ImageWrapper', { Portrait: n.portrait === 'true' })}
-                    style={{ backgroundImage: `url("/images/${url}")` }}
+                    className={classNames('ImageWrapper', { Portrait: n.portrait === 'true', Wide: n.wide === 'true' })}
+                    style={{ backgroundImage: `url("/img/${url}")` }}
                   />
                 ))
               : null}

@@ -5,6 +5,7 @@ export interface News {
   descriptionHr: string;
   imgUrls?: string[];
   portrait?: 'true';
+  wide?: 'true';
 }
 
 export interface NewsResponse {
