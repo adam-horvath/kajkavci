@@ -138,7 +138,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: MerriWeather;
+  font-family: MerriWeather !important;
   @include media-breakpoint-down('md') {
     height: calc(100% - #{$headerHeight});
   }
