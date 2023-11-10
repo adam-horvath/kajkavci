@@ -10,6 +10,7 @@ export const HistoryPage: FC = () => {
       <div className={'mb-3'}>{t('history.musicians_1')}</div>
       <div className={'mb-3'}>{t('history.musicians_2')}</div>
       <div className={'mb-3'}>{t('history.paragraph_2')}</div>
+      <div className={'mb-3'}>{t('history.paragraph_2b')}</div>
       <div className={'mb-3'}>{t('history.paragraph_3')}</div>
       <div className={'mb-3'}>{t('history.paragraph_4')}</div>
       <div className={'mb-3'}>{t('history.paragraph_5')}</div>

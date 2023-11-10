@@ -83,6 +83,12 @@ input:-webkit-autofill:active {
   }
 }
 
+.SubTitle {
+  @extend .Title;
+  @extend .PageTitle;
+  font-size: rem-calc(28);
+}
+
 .Description {
   color: $grey70;
   font-size: rem-calc(18);
