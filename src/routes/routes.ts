@@ -15,6 +15,7 @@ import { TamburaHistoryPage } from 'pages/TamburaHistoryPage/TamburaHistoryPage'
 import { ContactsPage } from 'pages/ContactsPage/ContactsPage';
 
 import { RouteConfigurationModel } from 'models';
+import { PrezidentPage } from 'pages/PrezidentPage/PrezidentPage';
 
 const routes: RouteConfigurationModel[] = [
   {
@@ -87,6 +88,12 @@ const routes: RouteConfigurationModel[] = [
     path: '/contacts',
     component: Page(ContactsPage, i18n.t('menu_items.contacts')),
     linkNameTranslateKey: 'menu_items.contacts',
+    exact: true,
+  },
+  {
+    path: '/horvathattila',
+    component: Page(PrezidentPage),
+    linkNameTranslateKey: 'HorvathAttila',
     exact: true,
   },
 ];

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2abfb717.css",
-    "main.js": "/static/js/main.51dcb873.js",
+    "main.css": "/static/css/main.04fedefb.css",
+    "main.js": "/static/js/main.2e14ea44.js",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/logo.png": "/static/media/logo.34f026db2e8e12b69fd6.png",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
@@ -17,6 +17,7 @@
     "static/media/mskCover.jpg": "/static/media/mskCover.fa65975198b1a0f07bf7.jpg",
     "static/media/arany_pava_nagydij.gif": "/static/media/arany_pava_nagydij.f25555f2d74ac248a34b.gif",
     "static/media/hr-flag.png": "/static/media/hr-flag.6cb3919e412f17adaaef.png",
+    "static/media/horvathattila.jpg": "/static/media/horvathattila.72feed528d808fcc708c.jpg",
     "static/media/kota_dij_2.gif": "/static/media/kota_dij_2.78b97651b6e5d42cc7bc.gif",
     "static/media/hu-flag.png": "/static/media/hu-flag.366f3ff893120a545115.png",
     "static/media/homoki_lakodalmas_2006_mini.jpg": "/static/media/homoki_lakodalmas_2006_mini.812419bf3a72083955ff.jpg",
@@ -93,7 +94,7 @@
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs"
   },
   "entrypoints": [
-    "static/css/main.2abfb717.css",
-    "static/js/main.51dcb873.js"
+    "static/css/main.04fedefb.css",
+    "static/js/main.2e14ea44.js"
   ]
 }

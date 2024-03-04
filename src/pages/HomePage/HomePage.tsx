@@ -1,10 +1,10 @@
 import { FC, useEffect, useState } from 'react';
 import i18n from 'i18next';
+import classNames from 'classnames';
 
 import { News, NewsResponse } from 'models';
 import { request } from 'utils';
 import './HomePage.scss';
-import classNames from 'classnames';
 
 export const HomePage: FC = () => {
   const [news, setNews] = useState<News[]>();
