@@ -44,6 +44,7 @@
     "musicians_1": "Ádám Horváth, Tamás Pálmai, Eszter Rádonyi, Györgyi Gráczol, Zita Gráczol.",
     "musicians_2": "Kasnije su se priključili: Ágnes Várhelyi, Gabriella Bális, József Pálmai i József Molnár.",
     "paragraph_2": "Tadašnje jezgro grupe je i danas zajedno, čak što više s vremenom smo uspjeli primamiti u grupu članove slijedećeg podmlatka, tako da je broj članova i nakon onih koji su napustili sastav 12 ljudi. Rad je počeo teško, prvenstveno zbog nedostatka instrumenata i zbog lošeg stanja već postojećih instrumenata, te zbog žica koje nisu bile odgovarajućeg kvaliteta. Kasnije smo postupno uredili naše instrumente i malim smo koracima počeli pripremu i svrstavanje tamburaškim sastavima zemlje i okolice. Prvi nam je bio nastup 18. prosinca godine osnutka na božićnoj svečanosti gdje je naša produkcija bila na stupnju očekivanog i dali smo znak da smo nešto počeli. Godinama smo dobili sve veći zamah i tako je naša grupa postala jedna od najboljih i najpoznatijih u zemlji. Kad je temelj - na kojem smo stajali - bio siguran, mogli smo pomoći u napredovanju ostalih grupa, tako i zboru i folklornoj grupi. Prema naše osnove, vrlo rano već 14. listopada 2000. smo lijep uspijeh postigli smo lijep uspjeh u Mohaču gdje smo dobili srebrnu kvalifikaciju i tamošnjim sudionicima grupa koja je došla \"iz ničega\" izazvala je veliko iznenađenje. 2001. smo se već predstavili i na međunarodnoj pozornici, u našem prijateljskom selu u Brdovcu. Nakon toga grupa se razvijala neslomljenom snagom i ogromnim koracima što označavaju redovni nastupi, priznanja i županijske i državne zlatne kvalifikacije (2005., 2008.). Ovdje trebamo spomenuti i snimke ploča. 2004. smo izdali ploču s naslovom \"Slatke tajne\", a krajem 2006. božićni album, dok smo početkom 2007. izdali novu ploču narodne glazbe pod naslovom \"Mi smo kajkavci\".",
+    "paragraph_2b": "2005. godine su se priključili Adrián Pálmai, Tünde Rádonyi, Luca Várhelyi i Máté Várhelyi.",
     "paragraph_3": "2006. godine je sastav dobio najveće priznanje nagradu KÓTA, koju dodjeljuje Savez mađarskih zborova i orkestara. Nagrada koja je osnovana 2004. dodjeljuje se svake godine u 10 kategorija, a naša grupa ju je dobila u narodnosnoj kategoriji.",
     "paragraph_4": "Ni naš orkestar nisu obilazile promjene, ali sve su promjene očvrstile nivo našeg orkestra. U svibnju 2007. godine smo dobili novoga berdaša (Zoltán Fung), i novoga basprimaša (István Opposits). Ovim novim članovima ponovo smo dobili zlatnu kvalifikaciju na Državnom Kvalifikacijskom natjecanju. Na ovoj priredbi - kao najbolji u dobrima - zaslužili smo si nagradu \"Zlatni Paun\".",
     "paragraph_5": "Poslije promocije 2007-e godine objavljene CD ploče \"Mi smo kajkavci\" opet smo se povećali novim članom, primašicom i violistkinjom Katalin Horváth. Tako smo već postali orkestrom 13 člana i mogli smo proširiti i naš muzički repertoar.",
@@ -67,6 +68,24 @@
     "Adrian": "Adrián Pálmai - A-brač",
     "Mate": "Máté Várhelyi - bugarija",
     "Jozsi": "József Kozák - berde"
+  },
+  "previous_members": {
+    "subtitle": "Bivši članovi",
+    "Gabi": "Gabriella Bális - berde",
+    "Zoli": "Zoltán Fung - berde",
+    "Gyorgyi": "Györgyi Gráczol - A-brač",
+    "Zita": "Zita Gráczol - bisernica",
+    "Kertesz": "Máté Kertész - A-brač",
+    "Korlath": "Zoltán Korláth - berde",
+    "Pokker": "József Molnár - E-brač",
+    "Opo": "István Opposits - A-brač",
+    "Joco": "József Pálmai - bugarija",
+    "Tomi": "Tamás Pálmai - A-brač",
+    "Eszti": "Eszter Rádonyi - A-brač",
+    "Tundi": "Tünde Rádonyi - A-brač",
+    "Ocsi": "János Szallmer -  čelo, berde, harmonika",
+    "Agi": "Ágnes Várhelyi - A-brač",
+    "Luca": "Luca Várhelyi - bisernica, A-brač, frula"
   },
   "month": {
     "jan": "siječnju",

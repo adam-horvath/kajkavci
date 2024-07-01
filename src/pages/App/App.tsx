@@ -19,8 +19,12 @@ export const App: FC = () => {
     <div>
       <AppLoader show={loading} />
       <div className={'Main'} id={'Main'}>
-        <AlterMobileHeader />
-        <DesktopHeader />
+        {location?.pathname.endsWith('horvathattila') ? null : (
+          <>
+            <AlterMobileHeader />
+            <DesktopHeader />
+          </>
+        )}
         <div className={'MainContent'}>
           <section>
             <TransitionGroup component={null}>
