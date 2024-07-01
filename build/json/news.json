@@ -1,19 +1,19 @@
 {
   "news": [
     {
+      "titleHr": "",
+      "titleHu": ",
+      "descriptionHu": "",
+      "descriptionHr": "",
+      "imgUrls": ["pajtafesztival2024.jpg"],
+      "wide": "true"
+    },
+    {
       "titleHu": "",
       "titleHr": "",
       "descriptionHu": "",
       "descriptionHr": "",
       "imgUrls": ["band-1200.jpg"],
-      "wide": "true"
-    }, 
-    {
-      "titleHr": "Festival Škadanj, 2024.",
-      "titleHu": "Pajtafesztivál, 2024.",
-      "descriptionHu": "",
-      "descriptionHr": "",
-      "imgUrls": ["pajtafesztival2024.jpg"],
       "wide": "true"
     }
   ]
