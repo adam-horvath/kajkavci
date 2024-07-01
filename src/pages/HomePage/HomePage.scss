@@ -28,6 +28,7 @@
 .ImageWrapper {
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-x: center;
   width: rem-calc(360);
   padding-top: rem-calc(280);
   max-width: 100%;
