@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f97bc7f.css",
-    "main.js": "/static/js/main.0b256ad8.js",
-    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "main.css": "/static/css/main.1664cd3a.css",
+    "main.js": "/static/js/main.1cbe484a.js",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/logo.png": "/static/media/logo.34f026db2e8e12b69fd6.png",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "static/media/merriweather.bold.ttf": "/static/media/merriweather.bold.c1a20baec499d154afc1.ttf",
     "static/media/merriweather.regular.ttf": "/static/media/merriweather.regular.de3de5d70c3d436eb475.ttf",
     "static/media/jozsi.jpg": "/static/media/jozsi.9ab13e17c9ebf00edf54.jpg",
@@ -91,10 +91,10 @@
     "static/media/pajta1.jpg": "/static/media/pajta1.64aea5c188b5fd9af781.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/index.html",
-    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs"
+    "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs"
   },
   "entrypoints": [
-    "static/css/main.9f97bc7f.css",
-    "static/js/main.0b256ad8.js"
+    "static/css/main.1664cd3a.css",
+    "static/js/main.1cbe484a.js"
   ]
 }
