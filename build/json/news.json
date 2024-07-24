@@ -9,6 +9,14 @@
       "wide": "true"
     },
     {
+      "titleHr": "Sponzor: Amadea Kft.",
+      "titleHu": "Támogató: Amadea Kft.",
+      "descriptionHu": "",
+      "descriptionHr": "",
+      "imgUrls": ["amadea.png"],
+      "wide": "true" 
+    },
+    {
       "titleHu": "",
       "titleHr": "",
       "descriptionHu": "",
