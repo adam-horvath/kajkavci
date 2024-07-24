@@ -13,6 +13,9 @@
   @include media-breakpoint-down('sm') {
     font-size: rem-calc(20);
   }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ImageContainer {
@@ -38,5 +41,8 @@
   &.Wide {
     width: rem-calc(1000);
     padding-top: rem-calc(700);
+  }
+  &.Small {
+    padding-top: rem-calc(100);
   }
 }

@@ -14,7 +14,8 @@
       "descriptionHu": "",
       "descriptionHr": "",
       "imgUrls": ["amadea.png"],
-      "wide": "true" 
+      "wide": "true",
+      "small": "true"
     },
     {
       "titleHu": "",

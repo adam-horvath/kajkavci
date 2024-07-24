@@ -34,7 +34,7 @@ export const HomePage: FC = () => {
               ? n.imgUrls.map((url) => (
                   <div
                     key={url}
-                    className={classNames('ImageWrapper', { Portrait: n.portrait === 'true', Wide: n.wide === 'true' })}
+                    className={classNames('ImageWrapper', { Portrait: n.portrait === 'true', Wide: n.wide === 'true', Small: n.small === 'true' })}
                     style={{ backgroundImage: `url("/img/${url}")` }}
                   />
                 ))
