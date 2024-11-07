@@ -25,7 +25,7 @@ export const ConcertsPage: FC = () => {
 
   return !concerts ? null : (
     <div className={'ConcertsContainer'}>
-      {Object.keys(concerts as Concerts).map((year) => (
+      {Object.keys(concerts).map((year) => (
         <div key={year}>
           <div className={'Year'}>{year}</div>
           <div>
