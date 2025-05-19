@@ -1,10 +1,16 @@
 {
   "2025.": [
+    { "month": 7, "day": "25.", "location": "Fertőhomok", "isoDate": "2025-07-25" },
+    { "month": 5, "day": "23.", "location": "Fertőhomok", "isoDate": "2025-05-23" },
+    { "month": 5, "day": "11.", "location": "Fertőhomok", "isoDate": "2025-05-11" },
+    { "month": 5, "day": "10.", "location": "Gara", "isoDate": "2025-05-10" },
+    { "month": 3, "day": "7.", "location": "Fertőhomok", "isoDate": "2025-03-07" },
     { "month": 1, "day": "18.", "location": "Bécs", "country": "AT", "isoDate": "2025-01-18" }
   ],
   "2024.": [
     { "month": 12, "day": "25.", "location": "Fertőhomok", "isoDate": "2024-12-25" },
     { "month": 12, "day": "22.", "location": "Fertőhomok", "isoDate": "2024-12-22" },
+    { "month": 12, "day": "7.", "location": "Hidegség", "isoDate": "2024-12-07" },
     { "month": 12, "day": "7.", "location": "Und", "isoDate": "2024-12-07" },
     { "month": 9, "day": "14.", "location": "Fertőhomok", "isoDate": "2024-09-14" },
     { "month": 9, "day": "7.", "location": "Fertőszéplak", "isoDate": "2024-09-07" },
