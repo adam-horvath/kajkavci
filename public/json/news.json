@@ -3,8 +3,8 @@
     {
       "titleHu": "Pajtafesztivál 2025.",
       "titleHr": "Festival \"Pajta\" 2025.",
-      "descriptionHu": "Tájház, július 21-27.",
-      "descriptionHr": "Seoska kuća, 21.-27. srpnja.",
+      "descriptionHu": "",
+      "descriptionHr": "",
       "imgUrls": ["pajta2025.jpg"],
       "wide": "true"
     },
@@ -13,7 +13,7 @@
       "titleHr": "Sponzor događaja",
       "descriptionHu": "",
       "descriptionHr": "",
-      "imgUrls": ["amadea.jpg"],
+      "imgUrls": ["amadea.png"],
       "wide": "false"
     },
     {
